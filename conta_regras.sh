@@ -7,7 +7,7 @@ Cont=1
 Total=0
 TotalEnable=0
 TotalDisable=0
-echo "Num|Status|Origem|Destino|Servico|Total"
+echo "Num|Status|N-Origem|N-Destino|N-Servicos|Total"
 cat .regras.txt|(while read RegraFiltragem
 do
 	Origem=$(echo "$RegraFiltragem"|egrep -o 'source_ents.*dest_ents')
