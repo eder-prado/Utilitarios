@@ -1,7 +1,9 @@
 #!/bin/bash
 
 
-# Criarelatorio de conexao Secure Roaming  
+# Cria relatorio de conexao Secure Roaming
+# Uso: report-secureroaming.sh <qnt de dias 0 a 30 >
+# 
 # ----------------------------------------
 
 # --------------------------------------------------
